@@ -1,0 +1,55 @@
+# ========================
+# 1. 核心构建产物 (必须排除)
+# ========================
+dist/
+dist-ssr/
+*.local
+
+# ========================
+# 2. 依赖与包管理
+# ========================
+node_modules/
+.npm
+.pnpm-store/
+yarn-error.log*
+pnpm-debug.log*
+npm-debug.log*
+
+# ========================
+# 3. 环境变量与敏感配置
+# ========================
+# 仅保留 .env.example 作为模板，其余环境文件一律不提交
+.env
+.env.*
+!.env.example
+
+# ========================
+# 4. 编辑器与 IDE 缓存
+# ========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# ========================
+# 5. 测试与覆盖率报告
+# ========================
+coverage/
+*.lcov
+.playwright-mcp/
+cypress/videos/
+cypress/screenshots/
+
+# ========================
+# 6. 其他临时文件
+# ========================
+*.tsbuildinfo
+.cache/
+.temp/
