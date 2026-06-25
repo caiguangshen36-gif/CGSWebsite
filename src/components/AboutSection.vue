@@ -1,5 +1,5 @@
 <script setup>
-import avatarImg from '../assets/个人图片.jpg'
+import avatarImg from '../assets/个人照片.jpg'
 
 const education = [
   { year: '2023.09 - 2027.06', school: '广东理工学院', major: '计算机科学与技术', degree: '本科' },
